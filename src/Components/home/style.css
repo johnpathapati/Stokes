@@ -1,0 +1,36 @@
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px;
+    margin-top: 10px;
+  }
+  button {
+    padding: 10px;
+    background-color: #061e49dc !important;;
+    border-radius: 20px;
+    height: 50px;
+    cursor: pointer;
+    color: white;
+    --background-color: #1F2E5F;
+    --background-color-active: #466ae2;
+    --light-shadow-color: #635994;
+    --dark-shadow-color: #171e33;
+    --text-color: white;
+    box-shadow: inset 0.5em 0.5em 0.5em var(--light-shadow-color), 
+    inset -0.5em -0.5em 0.5em var(--dark-shadow-color), 
+    0.125em 0.125em 0.25em #02020231;
+  }
+  button:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  main-body{
+    padding: 15px 20px 15px 20px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: inset;
+  }
+  
+  

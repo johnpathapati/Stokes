@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    color: white;
+  }
+  
+  .logo {
+    height: 50px; /* Adjust as needed */
+    width: auto;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+  }
