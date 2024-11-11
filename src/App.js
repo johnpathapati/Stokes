@@ -1,16 +1,18 @@
-//import logo from './sho.png';
-//import './App.css';
+
 import HomePage from './Components/home/homepage';
 import Headerpage from './Components/header/headerpage';
+import Areas from './Components/Areas/createareas';
+import Homearea from './Components/Areas/areahome';
 
 function App() {
   return (
+    
     <div className="App">
-      {/* <header className="App-header">
-     {/*   <img src={logo} className="App-logo" alt="logo" /> 
-      </header> */}
+      <h1>This is Home Page</h1>
       <Headerpage></Headerpage>
       <HomePage></HomePage>
+      <Areas></Areas>
+      <Homearea></Homearea>
     </div>
   );
 }
